@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <h1>Welcome To Company HR Portal</h1>
+            <div id="items">
+                <div id="item1"><a href="#registration">Employee Registration</a></div>
+                <div id="item2"><a href="#directory">Employee Directory</a></div>
+                <div id="item3"><a href="#contact">Contact Us</a></div>
+            </div>
+        </div>
+        <div id="fakeheader"></div>
+        <div id="page1">
+            <div id="image">
+                <img src="image.jpg" alt="">
+            </div>
+            <div id="registration">
+                <h1>Employee registration</h1>
+                <h2>Fill the below form to register as Employee.</h2>
+                <form>
+                    <label for="name">Name : </label>
+                    <input type="text" id="name"><br><br>
+                    <label for="email">Email Id : </label>
+                    <input type="email" id="email"><br><br>
+                    <label for="password">Password : </label>
+                    <input type="password"><br><br>
+                    <label for="age">Age : </label>
+                    <input type="number"><br><br>
+                    <label for="role">Select Role : </label>
+                    <select name="" id="role">
+                        <option value="">Software Engineer</option>
+                        <option value="">Product Manager</option>
+                        <option value="">Designer</option>
+                    </select><br><br>
+                    <lebel for="date">Select Joining Date</lebel>
+                    <input type="date"><br><br>
+                    <input type="submit"><br><br>
+                </form>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="directory">
+                <h1>Employee Directory</h1><br><br>
+                <h2>List of registered employee</h2><br>
+                <table>
+                    <tr>
+                        <th>Employee Id</th>
+                        <th>Employee Name</th>
+                        <th>Employee Role</th>
+                    </tr>
+                    <tr>
+                        <td>1207</td>
+                        <td>Amar prakash</td>
+                        <td>Software Engineer</td>
+                    </tr>
+                    <tr>
+                        <td>1523</td>
+                        <td>Rishikesh Kumar</td>
+                        <td>Product Manager</td>
+                    </tr>
+                    <tr>
+                        <td>6702</td>
+                        <td>Ved Prakash</td>
+                        <td>Designer</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="contact">
+                <h1>Contact Us</h1><br>
+                <h3>You can contact us at company@official.com or visit us between 9Am - 7PM</h3><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7332.5232553524975!2d77.49106314314427!3d23.23356472491019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c41befeddcc4d%3A0x8b370649315adea2!2sRegal%20Town%2C%20Awadhpuri%2C%20Bhopal%2C%20Madhya%20Pradesh%20462022!5e0!3m2!1sen!2sin!4v1716119961128!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br><br>
+            </div>
+            <div id="footer">
+                    <h3>&copy; 2024 Company Name</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

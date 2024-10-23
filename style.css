@@ -1,0 +1,97 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    height: 13%;
+    background-color:rgb(39, 72, 54);
+}
+#header h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+#items{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(39, 72, 54);
+}
+#item2 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#fakeheader{
+    width: 100%;
+    height: 18%;
+    background-color: white;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+}
+#image{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+}
+#registration{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#page2{
+    width: 100%;
+    height: 90%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
+#directory{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    height: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(39, 72, 54);
+    color: white;
+}
+
+
+
+
+
